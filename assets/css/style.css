@@ -1,0 +1,42 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: red;
+  height: calc(100vh - 160px);
+  width: 100%;
+}
+
+header #log-in {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  justify-content: flex-end;
+  background-color: #000000;
+
+  position: relative;
+}
+
+#log-in a {
+  color: #ffffff;
+}
+
+main #menu {
+  width: 160px;
+  height: calc(100vh - 80px);
+  background-color: green;
+  position: absolute;
+  top: 0%;
+  z-index: 1;
+}
+
+footer #player {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  background-color: #000000;
+  color: #ffffff;
+}
