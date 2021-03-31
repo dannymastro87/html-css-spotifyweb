@@ -113,6 +113,10 @@ footer #player {
   width: 200px;
 }
 
+.cover img:after {
+  background-color: gray;
+}
+
 .cover p {
   color: #6c6f74;
   font-size: .8em;
@@ -121,6 +125,78 @@ footer #player {
 
 .cover .round-image {
   border-radius: 50%;
+}
+
+/* Player  */
+.player-cover {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.player-cover img {
+  width: 50px;
+  margin: 10px;
+}
+
+.player-cover .title-music {
+  margin-right: 30px;
+}
+
+.player-cover i {
+  color: #6c6f74;
+  padding: 10px;
+}
+
+.player-menu .top {
+  display: flex;
+  align-items: center;
+}
+
+.player-menu .top i {
+  padding: 10px;
+  font-size: 24px;
+}
+
+.player-menu .top i:hover {
+  font-size: 26px;
+}
+
+.player-menu .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 500px;
+  height: 5px;
+  margin: 0 10px;
+  background-color: #ffffff;
+  border-radius: 20%;
+}
+
+.player-volume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-volume i {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.player-volume i:hover {
+  font-size: 22px;
+}
+
+.line-volume {
+  width: 100px;
+  height: 5px;
+  margin: 0 10px;
+  background-color: #ffffff;
+  border-radius: 20%;
 }
 
 /* Button */
